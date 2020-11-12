@@ -59,7 +59,7 @@ enum _MMKeyCode {
 
 	K_META = kVK_Command,
 	K_LMETA = kVK_Command,
-	K_RMETA = kVK_RightCommand,
+	K_RMETA = 0x36, // kVK_RightCommand
 	K_ALT = kVK_Option,
 	K_LALT = kVK_Option,
 	K_RALT = kVK_RightOption,
